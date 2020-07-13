@@ -20,7 +20,7 @@ namespace AirportWebApi.Controllers
         #endregion
 
         #region Constructor
-        public AirportController(AppDbContext context, IMemoryCache memoryCache)
+        public AirportController(IMemoryCache memoryCache)
         {
             _memoryCache = memoryCache;
         }
